@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 1. Probability :- Probability is the chance of something happening.
 
    Real-time Example:- 
@@ -32,29 +31,29 @@
 
    Real-time Example :-
 
-   | Customer | Order Total (\$) |
+      |       Customer          |      Order Total (\$)      |
 
-   | -------- | ---------------- |
+      |       --------          |      ----------------      |
 
-   | 1        | 25               |
+      |         1               |           25               |
 
-   | 2        | 30               |
+      |         2               |           30               |
 
-   | 3        | 20               |
+      |         3               |           20               |
 
-   | 4        | 40               |
+      |         4               |           40               |
 
-   | 5        | 35               |
+      |         5               |           35               |
 
-   | 6        | 45               |
+      |         6               |           45               |
 
-   | 7        | 50               |
+      |         7               |           50               |
 
-   | 8        | 38               |
+      |         8               |           38               |
 
-   | 9        | 28               |
+      |         9               |           28               |
 
-   | 10       | 31               |
+      |         10              |           31               |
 
    add up all orders:
 
