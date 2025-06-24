@@ -1,0 +1,15 @@
+pandas
+openpyxl
+matplotlib
+seaborn
+plotly
+scikit-learn
+transformers
+opencv-python
+requests
+beautifulsoup4
+urllib3
+flask
+fastapi
+pytest
+selenium
