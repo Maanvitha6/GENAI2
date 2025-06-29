@@ -34,29 +34,19 @@
 
  # 4. Understanding the Data :-
 
-   | Column Name    | Data Type | Description                     |
+| Column Name     | Data Type | Description                           |
+|-----------------|-----------|---------------------------------------|
+| Order ID        | object    | Unique identifier for the order       |
+| Customer ID     | object    | Unique ID for the customer            |
+| Order Date      | object    | Date the order was placed             |
+| Category        | object    | Food category (e.g., Beverages)       |
+| Item            | object    | Item name                             |
+| Quantity        | int       | Quantity ordered                      |
+| Unit Price      | float     | Price per item                        |
+| Order Total     | float     | Total cost for the order              |
+| Payment Method  | object    | Mode of payment                       |
+| Location        | object    | Store location                        |
 
-   | -------------- | --------- | ------------------------------- |
-
-   | Order ID       | object    | Unique identifier for the order |
-
-   | Customer ID    | object    | Unique ID for the customer      |
-
-   | Order Date     | object    | Date the order was placed       |
-
-   | Category       | object    | Food category (e.g., Beverages) |
-
-   | Item           | object    | Item name                       |
-
-   | Quantity       | int       | Quantity ordered                |
-
-   | Unit Price     | float     | Price per item                  |
-
-   | Order Total    | float     | Total cost for the order        |
-
-   | Payment Method | object    | Mode of payment                 |
-
-   | Location       | object    | Store location                  |
 
  # 5. Data Cleaning Steps :-
 
