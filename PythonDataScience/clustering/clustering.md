@@ -10,31 +10,24 @@
 
    How many times they visit.
 
-   | Customer | Total Money Spent | Number of Visits |
+  | Customer | Total Money Spent | Number of Visits |
+  |--------- |------------------ |----------------- |
+  | A        | 200               | 2               |
+  | B        | 1500              | 15              |
+  | C        | 300               | 3               |
+  | D        | 1200              | 12              |
+  | E        | 250               | 2               |
 
-   | -------- | ----------------- | ---------------- |
-
-   | A        | 200               | 2                |
-
-   | B        | 1500              | 15               |
-
-   | C        | 300               | 3                |
-
-   | D        | 1200              | 12               |
-
-   | E        | 250               | 2                |
 
    * What clustering will do ?
      
         . It will automatically group similar customers:
 
         | Cluster             | Restaurant Action                            |
+        |---------------------|---------------------------------------------|
+        | Low Spending Group  | Send discount coupons to make them come more |
+        | High Spending Group | Give loyalty rewards to keep them happy      |
 
-        | ------------------- | -------------------------------------------- |
-
-        | Low Spending Group  | Send Discount Coupons to make them come more |
-
-        | High Spending Group | Give Loyalty Rewards to keep them happy      |
 
     * "Clustering helps the restaurant automatically group customers with similar spending and visiting behavior, so they can
     
@@ -114,19 +107,14 @@
 
    You want to check whether the number of customers and total sales are changing together.
 
-   | Day | Number of Customers | Total Sales (\$) |
+   | Day | Number of Customers | Total Sales ($) |
+   |---- |---------------------|-----------------|
+   | 1   | 50                  | 500             |
+   | 2   | 60                  | 600             |
+   | 3   | 70                  | 700             |
+   | 4   | 80                  | 800             |
+   | 5   | 90                  | 900             |
 
-   | --- | ------------------- | ---------------- |
-
-   | 1   | 50                  | 500              |
-
-   | 2   | 60                  | 600              |
-
-   | 3   | 70                  | 700              |
-
-   | 4   | 80                  | 800              |
-
-   | 5   | 90                  | 900              |
 
    As the number of customers increases, the total sales also increases → Positive Covariance.
 
@@ -153,38 +141,30 @@
    You have data from two branches: Branch A and Branch B . 
 
    | Branch   | Dine-in Positive Review % | Takeaway Positive Review % | Which looks better? |
-
-   | -------- | ------------------------- | -------------------------- | ------------------- |
-
+   |--------- |-------------------------- |--------------------------- |---------------------|
    | Branch A | 90% (9 out of 10)         | 80% (8 out of 10)          | Dine-in             |
-
    | Branch B | 70% (7 out of 10)         | 60% (6 out of 10)          | Dine-in             |
+
 
    * In both branches Dine-in is better.
 
    . But when you combine both branches; 
 
    | Order Type | Total Positive Reviews | Total Orders | Overall Positive % |
-
-   | ---------- | ---------------------- | ------------ | ------------------ |
-
+   |----------- |----------------------- |------------- |------------------- |
    | Dine-in    | 16 out of 30           | 53%          |                    |
-
    | Takeaway   | 60 out of 80           | 75%          |                    |
+
 
 9. Clustering Techniques :- 
 
    | Technique    | What It Does                                        | Example (Restaurant)                                  |
+   |--------------|-----------------------------------------------------|-------------------------------------------------------|
+   | K-Means      | Groups data into K fixed clusters                  | Segment customers into Low, Medium, High spenders     |
+   | Hierarchical | Builds a tree of clusters (Dendrogram)             | Group dishes based on ingredient similarity           |
+   | DBSCAN       | Clusters based on density and proximity            | Group delivery locations based on area                |
+   | Mean-Shift   | Finds dense data regions, no need for pre-set K    | Group customer locations automatically                |
 
-   | ------------ | --------------------------------------------------- | ----------------------------------------------------- |
-
-   | K-Means      | Groups data into K fixed clusters                   | Segment customers into Low, Medium, High spenders     |
-
-   | Hierarchical | Builds a tree of clusters (Dendrogram)              | Group dishes based on ingredient similarity           |
-
-   | DBSCAN       | Clusters based on density and proximity             | Group delivery locations based on area                |
-
-   | Mean-Shift   | Finds dense data regions, no need for pre-set K     | Group customer locations automatically                |
 
 
  * Guassian Mixture Model :-
