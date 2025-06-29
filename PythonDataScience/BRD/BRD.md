@@ -50,51 +50,36 @@
 
  # 5. Data Cleaning Steps :-
 
-   | Step | Description                                                                                                        |
+| Step | Description                                                                                                         |
+|----- |---------------------------------------------------------------------------------------------------------------------|
+| 1    | Dropped duplicate rows.                                                                                             |
+| 2    | Removed rows with missing values in key fields: `Order Date`, `Category`, `Item`, `Order Total`, `Payment Method`. |
+| 3    | Dropped unnecessary columns: `Customer ID`, `Order ID`.                                                             |
+| 4    | Filled missing numeric values in `Quantity`, `Unit Price` with mean.                                                |
+| 5    | Standardized text fields like `Category` and `Payment Method`.                                                      |
+| 6    | Converted `Order Date` to datetime format and extracted `Month` column.                                             |
+| 7    | Final cleaned data saved to CSV and MySQL database (`restaurant_sales_cleaned`).                                    |
 
-   | ---- | ------------------------------------------------------------------------------------------------------------------ |
-
-   | 1️.   | Dropped duplicate rows.                                                                                            |
-
-   | 2️.   | Removed rows with missing values in key fields: `Order Date`, `Category`, `Item`, `Order Total`, `Payment Method`. |
-
-   | 3️.   | Dropped unnecessary columns: `Customer ID`, `Order ID`.                                                            |
-
-   | 4️.   | Filled missing numeric values in `Quantity`, `Unit Price` with  mean.                                              |
-
-   | 6️.   | Standardized text fields like `Category` and `Payment Method`.                                                     |
-
-   | 7️.   | Converted `Order Date` to datetime format and extracted `Month` column.                                            |
-
-   | 8️.   | Final cleaned data saved to CSV and MySQL database (`restaurant_sales_cleaned`).                           |
 
  # 6. Functional Requirements :-
 
-   | Requirement ID | Requirement Description                              |
+| Requirement ID | Requirement Description                              |
+|----------------|------------------------------------------------------|
+| FR1           | Load raw data into MySQL from CSV.                   |
+| FR2           | Drop duplicates and handle nulls strategically.      |
+| FR3           | Visualize top categories, items, and monthly trends. |
+| FR4           | Save cleaned data locally and in the database.       |
 
-   | -------------- | ---------------------------------------------------- |
-
-   | FR1            | Load raw data into MySQL from CSV.                   |
-
-   | FR2            | Drop duplicates and handle nulls strategically.      |
-
-   | FR3            | Visualize top categories, items, and monthly trends. |
-
-   | FR4            | Save cleaned data locally and in the database.       |
 
  # 7. Data Analysis Performed :-
+ 
+| Analysis Task          | Description                                               |
+|------------------------|-----------------------------------------------------------|
+| Top-Selling Categories | Summed `Order Total` grouped by `Category`.               |
+| Top 10 Selling Items   | Summed `Quantity` grouped by `Item` (excluding unknowns). |
+| Monthly Sales Trend    | Summed monthly revenue from `Order Date` → `Month`.       |
+| Statistical Summary    | Mean, Median, Mode, Std. Dev for numeric columns.         |
 
-   | Analysis Task             | Description                                               |
-
-   | ------------------------- | --------------------------------------------------------- |
-
-   |  Top-Selling Categories | Summed `Order Total` grouped by `Category`.               |
-
-   |  Top 10 Selling Items   | Summed `Quantity` grouped by `Item` (excluding unknowns). |
-
-   |  Monthly Sales Trend    | Summed monthly revenue from `Order Date` → `Month`.       |
-
-   |  Statistical Summary    | Mean, Median, Mode, Std. Dev for numeric columns.         |
 
  # 8. Visuazilations :-
 
