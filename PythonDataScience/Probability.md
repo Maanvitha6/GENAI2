@@ -217,7 +217,7 @@
 
     You’re saying it’s most likely between $47 and $53.
 
-11. Hypothesis Testing :-
+11. Hypothesis Testing :- comparing two groups. 
 
     Hypothesis testing helps you decide:
 
@@ -290,10 +290,4 @@
          There’s only a 2% chance the difference is random.
 
          So, you can confidently say Credit Card users spend more.
-
-
-
-
-
->>>>>>> f570649 (Added Probability.md with all probability concepts)
 

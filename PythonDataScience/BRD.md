@@ -70,15 +70,13 @@
 
    | 3️.   | Dropped unnecessary columns: `Customer ID`, `Order ID`.                                                            |
 
-   | 4️.   | Filled missing numeric values in `Quantity`, `Unit Price` with **mean**.                                           |
-
-   | 5️.   | Filled missing `Location` using **mode**.                                                                          |
+   | 4️.   | Filled missing numeric values in `Quantity`, `Unit Price` with  mean.                                              |
 
    | 6️.   | Standardized text fields like `Category` and `Payment Method`.                                                     |
 
    | 7️.   | Converted `Order Date` to datetime format and extracted `Month` column.                                            |
 
-   | 8️.   | Final cleaned data saved to **CSV** and **MySQL database** (`restaurant_sales_cleaned`).                           |
+   | 8️.   | Final cleaned data saved to CSV and MySQL database (`restaurant_sales_cleaned`).                           |
 
  # 6. Functional Requirements :-
 
