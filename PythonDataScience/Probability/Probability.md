@@ -31,29 +31,19 @@
 
    Real-time Example :-
 
-      |       Customer          |      Order Total (\$)      |
+   | Customer | Order Total ($) |
+   |--------- |---------------- |
+   | 1        | 25              |
+   | 2        | 30              |
+   | 3        | 20              |
+   | 4        | 40              |
+   | 5        | 35              |
+   | 6        | 45              |
+   | 7        | 50              |
+   | 8        | 38              |
+   | 9        | 28              |
+   | 10       | 31              |
 
-      |       --------          |      ----------------      |
-
-      |         1               |           25               |
-
-      |         2               |           30               |
-
-      |         3               |           20               |
-
-      |         4               |           40               |
-
-      |         5               |           35               |
-
-      |         6               |           45               |
-
-      |         7               |           50               |
-
-      |         8               |           38               |
-
-      |         9               |           28               |
-
-      |         10              |           31               |
 
    add up all orders:
 
@@ -260,12 +250,10 @@
          Step 1:- State Hypotheses
 
          | Type                      | Statement                                                        |
+         |---------------------------|------------------------------------------------------------------|
+         | Null Hypothesis (H₀)      | There is no difference between Credit Card and Cash spending     |
+         | Alternate Hypothesis (H₁) | Credit Card users spend more than Cash users                     |
 
-         | ------------------------- | ---------------------------------------------------------------- |
-
-         | Null Hypothesis (H₀)      | There is **no difference** between Credit Card and Cash spending |
-
-         | Alternate Hypothesis (H₁) | Credit Card users **spend more** than Cash users                 |
 
          Step 2:- Run the Test
 
