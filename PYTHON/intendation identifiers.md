@@ -154,7 +154,7 @@
 
                  my_list = [10, 20, 30, 40]
 
-                 . Indexing:-
+                 * Indexing:-
 
                  Access elements by position.
 
@@ -162,7 +162,7 @@
 
                  Example :- print(my_list[0])  # 10
 
-                 . slicing :- 
+                 * slicing :- 
 
                  Extract a sublist.
 
@@ -170,7 +170,7 @@
 
                  Example :- print(my_list[1:3])  # [20, 30]
 
-                 . Adding :-
+                 * Adding :-
 
                  Append to end: list.append(value)
 
@@ -186,7 +186,7 @@
 
                  my_list.extend([60, 70])
 
-                 .  Removing
+                 *  Removing
 
                  By value: list.remove(value)
 
@@ -198,7 +198,7 @@
 
                  my_list.pop(0)
 
-                 . Deleting ;-
+                 * Deleting ;-
                 
                   Delete by index: del list[index]
 
@@ -220,13 +220,13 @@
 
                my_tuple = (1, 2, 3, 4).
 
-               . Indexing:-
+               * Indexing:-
 
                Syntax: tuple[index]
 
                print(my_tuple[2])  # 3
 
-               . slicing :-
+               * slicing :-
 
                 Syntax: tuple[start:stop]
 
@@ -238,13 +238,13 @@
 
               my_dict = {'a': 1, 'b': 2}
 
-               .  Indexing (by key)
+               *  Indexing (by key)
 
                  Syntax: dict[key]
 
                  Example :- print(my_dict['a'])  # 1
 
-                . Adding / Updating :- 
+                * Adding / Updating :- 
 
                   Add new or update existing key.
 
@@ -254,7 +254,7 @@
 
                                my_dict['a'] = 10
 
-                . Removing :- 
+                * Removing :- 
 
                  Remove and return value: dict.pop(key)
 
@@ -264,7 +264,7 @@
 
                  del my_dict['c']
 
-                 . Deleting :-
+                 * Deleting :-
 
                  Delete all: dict.clear()
 
@@ -280,7 +280,7 @@
 
                my_set = {1, 2, 3}
 
-               . Adding :- 
+               * Adding :- 
 
                 Add single item: set.add(value)
 
@@ -290,7 +290,7 @@
 
                 my_set.update([5, 6])
 
-                . Removing :-
+                * Removing :-
 
                   Remove value: set.remove(value) (error if not found)
 
@@ -304,7 +304,7 @@
 
                   my_set.pop()
 
-                  . Deleting :-
+                  * Deleting :-
 
                   Clear set: set.clear()
 
