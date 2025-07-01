@@ -105,9 +105,9 @@
 
      | ----------------------------------------------------- | ------------------------------------------------------ |
 
-     | ✅ Both variables are categorical                     | Day Type (Weekday/Weekend), Payment Method (Cash/Card) |
+     |  Both variables are categorical                     | Day Type (Weekday/Weekend), Payment Method (Cash/Card) |
 
-     | ✅ You want to check for dependency or association    | Is Payment Method dependent on Day Type?               |
+     |  You want to check for dependency or association    | Is Payment Method dependent on Day Type?               |
 
     Hypotheses :-
 
