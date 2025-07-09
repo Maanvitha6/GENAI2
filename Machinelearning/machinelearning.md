@@ -67,7 +67,7 @@
 
             . Medical diagnosis from X-rays.
 
-2. Machine Learning Usecases ;
+2. Machine Learning Usecases :
 
    | Domain           | Use-Case Example                                              |
    | ---------------- | ------------------------------------------------------------- |

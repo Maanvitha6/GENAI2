@@ -116,6 +116,15 @@
 
             Choose the K with the highest silhouette score.
 
+            | **Term**         | **Meaning**                                                                      |
+            | ---------------- | -------------------------------------------------------------------------------- |
+            | **Formula**      | $S_i = \frac{b_i - a_i}{\max(a_i, b_i)}$                                         |
+            | $a_i$            | Avg. distance to same cluster points                                             |
+            | $b_i$            | Avg. distance to nearest other cluster                                           |
+            | $\max(a_i, b_i)$ | Max of $a_i$ and $b_i$                                                           |
+            | $S_i$            | - **Close to 1** → good<br> - **≈ 0** → borderline<br> - **< 0** → wrong cluster |
+
+
       3. Gap Statistic :-
 
          Idea:
